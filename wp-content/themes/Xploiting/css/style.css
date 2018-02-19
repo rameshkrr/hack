@@ -1,0 +1,547 @@
+body{
+	overflow-x: hidden;
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration: none!important;
+}
+a:hover{
+	color:#fff!important;
+	transition:all .5s ease;
+}
+
+.banner {
+	display: block;
+	min-height: 200px;
+	width: 100%;
+	position: relative;
+}
+.typed_wrap h1 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 48px;
+}
+.typed_wrap span{
+	color: #00AE2C;
+}
+.typed_wrap {
+	display: block;
+	width: 50%;
+	height: auto;
+	padding: 30px;
+	
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.typed_wrap h1 {
+	text-align: center;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#canvas{
+ background-color:#000;
+ display:block;
+ margin:auto;
+}
+#logo{
+ display:none;
+}
+
+.logo .logoClass {
+	height: 70px;
+}
+.logo .ad{
+	height: 85px;
+}
+.menu1 {
+	height: 55px;
+	background-color: #000;
+	margin-top: 0px;
+	padding-top: 18px;
+	position: relative;
+	box-sizing: border-box;
+}
+.menu1:after{
+	position: ;
+	top: 25px;
+	left: -81px;
+	content: "";
+	background-color: #000;
+	height: 2px;
+	width: 81px;
+}
+
+.menu1:before{
+	position: ;
+	top: 25px;
+	right: -81px;
+	content: "";
+	background-color: #000;
+	height: 2px;
+	width: 81px;
+}
+.menu1 li{
+	display: inline-block;
+	padding-left: 23px;
+}
+.menu1 li a{
+
+    color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 20px;
+	text-decoration: none;
+}
+.search a{
+	color:#fff;
+	float: right;
+	margin-right: 70px;
+}
+.menu1 li a:before{
+	position: absolute;
+	content: "";
+	top: 40px;
+	left: 0;
+	background:#fff;
+	height: 2px;
+	width:0%;
+	transition: all 0.5s ease
+}
+.menu1 li a:hover:before{
+	width: 100%;
+	
+}
+.menustyle{
+margin-left: 139px;
+}
+.logohead {
+    background: #fff;
+    height: 80px;
+    position: absolute;
+    z-index: 999;
+}
+.logohead img{
+	height: 60px;
+}
+.main{
+	
+	height: 600px;
+}
+#hometop  img{
+	width: 100%;
+}
+#hometop .homegrid:nth-child(1) {
+	width: 50%;
+	float: left;
+}
+#hometop .homegrid:nth-child(n+2){
+	width: 25%;
+	float: left;
+}
+#hometop .homegrid:nth-child(1) img{
+	height: 460px;
+}
+#hometop .homegrid:nth-child(n+2) img{
+	height: 230px;
+}
+.grid1{
+	position: relative;
+	box-sizing: border-box;
+}
+.grid_details{
+	position: absolute;
+	bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+.grid_title h1{
+	font-size: 20px;
+	color: #fff;
+	width: 100%;
+	font-weight: 600;
+	line-height: 22px;
+}
+.overlaygrid{
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	background:#000;
+	opacity: 0.5;
+	width: 100%;
+}
+#hacking{
+	margin-top: 30px;	
+}
+
+#hacking .hackk , #webdev .webb , #design .dess{
+	height: 40px;
+	background-color: #00AE2C;
+	width: 13%;
+	padding-top: 12px;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.hacking{
+	position: relative;
+}
+#hacking .hackk:after{
+	position: absolute;
+	content: "";
+	top: 40px;
+	left:0;
+	height: 2px;
+	background: #00AE2C;
+	width: 100%;
+}
+#hacking .col-sm-8 {
+	padding-left: 0px;
+}
+#hacking .col-sm-3{
+	padding-right: 0;
+	width: 50%;
+	margin-left: 50px;
+}
+#hacking .col-sm-4{
+	padding-right: 0;
+}
+.hacking .hack-contents img {
+    width: 125%;
+    height: auto;
+
+}
+.hacking .hackhead h1{
+	letter-spacing: 0;
+	line-height: 1.4;
+	font-weight: 700;
+	font-size: 20px;
+}
+.hacking .hackhead h1 a{
+	color: #333;
+}
+.by{
+	color: #888;
+}
+.authorname{
+	text-transform: capitalize;
+	color: #313131;
+}
+
+.authorname:after{
+	content: "";
+	width: 1px;
+	height: 10px;
+	background: #DEDEDE;
+	margin: 0 11px 0 15px;
+	border-right: 1px solid;
+	background: none !important;
+	opacity: 0.6;
+	display: inline-block;
+}
+.entry-date{
+	color: #888;
+}
+.hackhead p{
+	padding-top: 20px;
+	font-size: 14px;
+}
+.setup1{
+	margin-left: 30px;
+	margin-right: 20px;
+	position: relative;
+	transition: opacity 0.3s;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	float: left;
+}
+.setup1 img{
+	width: 120px;
+	height: auto;
+}
+
+.hacksettitle h1 {
+	font-size: 16px;
+	width: 125%;
+	margin-top: 0px;
+}
+.hacksettitle h1 a{
+	color: #313131;
+	line-height: 1.4px;
+	font-weight: 700;
+}
+.setup1-1{
+	margin-bottom: 26px;
+}
+.date-setup1{
+
+}
+.hackhome{
+	margin-top: 40px;
+	width: 100%;
+	display: table;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+
+}
+.hackhome .col-sm-5 , .hackhome .col-sm-4{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+.setup1{
+	position: relative;
+	box-sizing: border-box;
+}
+.setup1:after{
+	position: absolute;
+	top: 78px;
+	left: 0;
+	height: 1px;
+	width: 325%;
+	content: "";
+	background: #ececec;
+}
+.social{
+	background-color: #000;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #fff;
+	padding-left: 10px;
+	font-weight: bold;
+	margin-top: 19px;
+	text-transform: uppercase;
+}
+.socialicons img{
+	margin-top: 11px;
+	width: 100%;
+	height: 251px;
+
+}
+.socialicons ul {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: 313131;
+}
+.socialicons ul li{
+	padding-bottom: 10px;
+	list-style: none;
+}
+.socialicons .soccial1{
+	margin-left: -36px;
+}
+
+.socialicons .soccial1{
+	display: inline-block;
+	list-style: none;
+}
+.socialicons .social2{
+	transform: translateX(-45%);
+}
+.socialicons span{
+	padding-left: 4px;
+}
+#webdev{
+	position: relative;
+}
+#webdev .webb:after{
+	position: absolute;
+	content: "";
+	top: 59px;
+	left: 76px;
+	width: 88%;
+	background: #00AE2C;
+	height: 2px;
+}
+#webdev .col-sm-4:nth-child(2){
+	padding-left: 0;
+}
+#webdev .col-sm-4:nth-child(4){
+	padding-right:  0;
+}
+.webcon {
+    margin-top: 30px;
+}
+.webcon img{
+	width: 100%;
+	height: 310px;
+}
+.webtitle h1{
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Open Sans',sans-serif;
+}
+.webtitle h1 a{
+	color: #313131;
+	text-decoration:none;
+}
+.paraweb {
+    margin-top: 30px;
+}
+#design{
+	position: relative;
+	margin-top: 30px;
+}
+#design .col-sm-8{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#design .col-sm-6:nth-child(2){
+	padding-left: 0;
+}
+#design .col-sm-6:nth-child(3){
+	padding-right:  0;
+}
+#design .col-sm-4{
+	
+	
+}
+.design {
+    margin-top: 20px;
+}
+
+#design .dess:after{
+	position: absolute;
+	content: "";
+	top: 60px;
+	left:0;
+	height: 2px;
+	background: #00AE2C;
+	left: 0;
+	width: 100%;
+}
+.descon img{
+	width: 100%;
+	height: 215px;
+}
+.descon{
+	position: relative;
+	box-sizing: border-box;
+}
+.destitle{
+	position: absolute;
+bottom: 66px;
+font-size: 18px;
+padding-left: 42px;
+padding-right: 32px;
+}
+.destitle h1{
+	font-size: 18px;
+}
+.destitle a{
+	color: #fff;
+	font-weight: bold;
+}
+.design {
+    margin-bottom: 20px;
+}
+.overlaydesign{
+	position: absolute;
+	top: 0;
+	left:0;
+	background-color: #000;
+	height: 200px;
+	width: 100%;
+	opacity: 0;
+}
+.descon:hover .overlaydesign {
+    opacity: .5;
+    transition: all 0.5s ease;
+}
+.recent h4 {
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.recentposts{
+	margin-left: -38px;
+	margin-top: 30px;
+}
+.recentposts li{
+	
+	width: 47%;
+	float: left;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+	border-bottom: none;
+	list-style: none;
+
+}
+.recentposts li:nth-child(2) , .recentposts li:nth-child(4){
+	margin-left: 20px;
+}
+.recentposts li img{
+	width: 91%;
+float: left;
+height: 88px;
+}
+
+.recentposts li a{
+	color: #111111;
+font-weight: 700;
+}
+.recentposts h5{
+	margin-top: 96px;
+}
+
+@media(max-width: 2000px){
+	.banner{
+		width: 2000px;
+margin-left: -232px;
+background: #000;
+	}
+}

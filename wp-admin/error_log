@@ -1,0 +1,2 @@
+[07-Feb-2018 14:13:10 UTC] WordPress database error Unknown column 'xplo_' in 'field list' for query SELECT xplo_
+[14-Feb-2018 14:49:53 Etc/GMT] PHP Notice:  Constant WP_DEBUG already defined in /home/sketcnfw/public_html/hackers/wp-config.php on line 84
